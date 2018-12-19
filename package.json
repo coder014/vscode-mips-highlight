@@ -1,18 +1,18 @@
 {
-    "name": "mips",
-    "displayName": "MIPS Support",
-    "description": "Provides syntax highlighting and snippets for MIPS assembly language",
-    "version": "0.0.2",
-    "publisher": "kdarkhan",
-    "homepage": "https://github.com/kdarkhan/vscode-mips-support",
+    "name": "riscv",
+    "displayName": "RISCV Support",
+    "description": "Provides syntax highlighting and snippets for RISCV assembly language",
+    "version": "0.0.3",
+    "publisher": "zhuanhao-wu",
+    "homepage": "https://github.com/zhuanhao-wu/vscode-riscv-support",
     "icon": "images/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/kdarkhan/vscode-mips-support"
+        "url": "https://github.com/zhuanhao-wu/vscode-riscv-support"
     },
     "bugs": {
-        "url": "https://github.com/kdarkhan/vscode-mips-support/issues",
-        "email": "darkhanu@gmail.com"
+        "url": "https://github.com/zhuanhao-wu/vscode-riscv-support/issues",
+        "email": "zhwu95@gmail.com"
     },
     "engines": {
         "vscode": "^1.5.0"
@@ -24,15 +24,15 @@
     "contributes": {
         "languages": [
             {
-                "id": "mips",
+                "id": "riscv",
                 "aliases": [
-                    "MIPS Assembly",
-                    "mips"
+                    "RISCV Assembly",
+                    "riscv"
                 ],
                 "extensions": [
+                    ".S",
                     ".s",
-                    ".mips",
-                    ".spim",
+                    ".riscv",
                     ".asm"
                 ],
                 "configuration": "./language-configuration.json"
@@ -40,14 +40,14 @@
         ],
         "grammars": [
             {
-                "language": "mips",
-                "scopeName": "source.mips",
-                "path": "./syntaxes/mips.tmLanguage"
+                "language": "riscv",
+                "scopeName": "source.riscv",
+                "path": "./syntaxes/riscv.tmLanguage"
             }
         ],
         "snippets": [
             {
-                "language": "mips",
+                "language": "riscv",
                 "path": "./snippets/snippets.json"
             }
         ]
