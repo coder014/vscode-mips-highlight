@@ -6,10 +6,8 @@ This project is copied and adapted from [MIPS Support](https://github.com/kdarkh
 This VSCode extension provides basic RISCV colorization and snippets support.
 
 ### Colors
-![colors](images/vscode-riscv-colors.png)
 
 ### Snippets
-![snippets](images/vscode-riscv-snippets.png)
 
 ~The extension is based on Textmate's [MIPS bundle](https://github.com/textmate/mips.tmbundle)~
 

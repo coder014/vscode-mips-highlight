@@ -3,7 +3,7 @@
     "displayName": "RISCV Support",
     "description": "Provides syntax highlighting and snippets for RISCV assembly language",
     "version": "0.0.3",
-    "publisher": "zhuanhao-wu",
+    "publisher": "zhwu95",
     "homepage": "https://github.com/zhuanhao-wu/vscode-riscv-support",
     "icon": "images/icon.png",
     "repository": {
