@@ -1,9 +1,9 @@
-# RISCV Support
+# RISC-V Support
 
 This project is copied and adapted from [MIPS Support](https://github.com/kdarkhan/vscode-mips-support)
 
 ## Features
-This VSCode extension provides basic RISCV colorization and snippets support.
+This VSCode extension provides basic RISC-V colorization and snippets support.
 
 ### Colors
 
@@ -17,7 +17,7 @@ This VSCode extension provides basic RISCV colorization and snippets support.
 
 ### 0.0.3
 
-Branches into RISCV
+Branches into RISC-V
 
 ### 0.0.2
 

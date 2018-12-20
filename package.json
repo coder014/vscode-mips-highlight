@@ -1,7 +1,7 @@
 {
     "name": "riscv",
-    "displayName": "RISCV Support",
-    "description": "Provides syntax highlighting and snippets for RISCV assembly language",
+    "displayName": "RISC-V Support",
+    "description": "Provides syntax highlighting and snippets for RISC-V assembly language",
     "version": "0.0.3",
     "publisher": "zhwu95",
     "homepage": "https://github.com/zhuanhao-wu/vscode-riscv-support",
@@ -26,7 +26,7 @@
             {
                 "id": "riscv",
                 "aliases": [
-                    "RISCV Assembly",
+                    "RISC-V Assembly",
                     "riscv"
                 ],
                 "extensions": [
