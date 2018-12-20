@@ -7,6 +7,8 @@ This VSCode extension provides basic RISCV colorization and snippets support.
 
 ### Colors
 
+[!colors](images/vscode-riscv-colors.png)
+
 ### Snippets
 
 ~The extension is based on Textmate's [MIPS bundle](https://github.com/textmate/mips.tmbundle)~
