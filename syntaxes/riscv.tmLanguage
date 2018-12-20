@@ -25,7 +25,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(add|auipc|jal|jalr|beq|bne|blt|bge|bltu|bgeu|lb|lh|lw|lbu|lhu|sb|sh|sw|addi|slti|sltiu|xori|ori|andi|slli|srli|srai|add|sub|sll|slt|sltu|xor|srl|sra|or|and|fence|fence\.i|ecall|ebreak|csrrw|csrrs|csrrc|csrrwi|csrrsi|csrrci|lr\.w|sc\.w|amoswap\.w|amoadd\.w|amoxor\.w|amoand\.w|amoor\.w|amomin\.w|amomax\.w|amominu\.w|amomaxu\.w)\b</string>
+			<string>\b(add|auipc|jal|jalr|beq|bne|blt|bge|bltu|bgeu|lb|lh|lw|lbu|lhu|sb|sh|sw|addi|slti|sltiu|xori|ori|andi|slli|srli|srai|add|sub|sll|slt|sltu|xor|srl|sra|or|and|fence|fence\.i|ecall|ebreak|csrrw|csrrs|csrrc|csrrwi|csrrsi|csrrci|lr\.w|sc\.w|amoswap\.w|amoadd\.w|amoxor\.w|amoand\.w|amoor\.w|amomin\.w|amomax\.w|amominu\.w|amomaxu\.w|mret|sret|uret)\b</string>
 			<key>name</key>
 			<string>support.function.riscv</string>
 		</dict>
@@ -65,7 +65,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>x(0|[2-9]|1[0-9]|2[0-5]|2[89]|3[0-1])\b</string>
+			<string>\b(x(0|[2-9]|1[0-9]|2[0-5]|2[89]|3[0-1]))\b</string>
 			<key>name</key>
 			<string>variable.other.register.usable.by-number.riscv</string>
 		</dict>
@@ -79,7 +79,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\$)(zero|ra|sp|gp|tp|t[0-6]|s[0-11]|fp|s1)\b</string>
+			<string>\b(zero|ra|sp|gp|tp|t[0-6]|a[0-7]|s[0-9]|fp|s1[0-1])\b</string>
 			<key>name</key>
 			<string>variable.other.register.usable.by-name.riscv</string>
 		</dict>
@@ -93,7 +93,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>f([0-9]|1[0-9]|2[0-9]|3[0-1])\b</string>
+			<string>\bf([0-9]|1[0-9]|2[0-9]|3[0-1])\b</string>
 			<key>name</key>
 			<string>variable.other.register.usable.floating-point.riscv</string>
 		</dict>
