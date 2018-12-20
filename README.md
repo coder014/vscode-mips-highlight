@@ -7,7 +7,7 @@ This VSCode extension provides basic RISCV colorization and snippets support.
 
 ### Colors
 
-[!colors](images/vscode-riscv-colors.png)
+![colors](images/vscode-riscv-colors.png)
 
 ### Snippets
 
