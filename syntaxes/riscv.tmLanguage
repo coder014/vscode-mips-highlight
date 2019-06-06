@@ -19,7 +19,7 @@
 			<key>comment</key>
 			<string>ok actually this are instructions, but one also could call them funtions…</string>
 			<key>match</key>
-			<string>\b(la|lb|lh|lw|ld|nop|li|mv|not|neg|negw|sext\.w|seqz|snez|sltz|sgtz|beqz|bnez|blez|bgez|bltz|bgtz|bgt|ble|bgtu|bleu|j|jal|jr|jalr|ret|call|tail|fence|csr[r|w|s|c]|csr[w|s|c]i)\b</string>
+			<string>\b(la|lb|lh|lw|ld|nop|li|mv|not|neg|negw|sext\.w|seqz|snez|sltz|sgtz|beqz|bnez|blez|bgez|bltz|bgtz|bgt|ble|bgtu|bleu|j|jal|jr|ret|call|tail|fence|csr[r|w|s|c]|csr[w|s|c]i)\b</string>
 			<key>name</key>
 			<string>support.function.pseudo.riscv</string>
 		</dict>
