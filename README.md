@@ -15,6 +15,11 @@ This VSCode extension provides basic RISC-V colorization and snippets support.
 
 ## Release Notes
 
+### 0.0.5
+
+* Add more instructions (A/F/D extensions and 64-bit instructions)
+* Add assembler directives described in https://rv8.io/asm.html
+
 ### 0.0.4
 
 * Add more instructions
