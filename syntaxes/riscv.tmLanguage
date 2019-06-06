@@ -69,13 +69,13 @@
 
 		<dict>
 			<key>match</key>
-			<string>\.(ascii|asciiz|byte|data|double|float|half|kdata|ktext|space|text|word|set\s*(noat|at))\b</string>
+      <string>\.(ascii|asciiz|byte|[2|4|8]byte|data|double|float|half|kdata|ktext|space|text|word|dword|dtprelword|dtpreldword|set\s*(noat|at)|[s|u]leb128|string|incbin|zero|rodata|comm|common)\b</string>
 			<key>name</key>
 			<string>storage.type.riscv</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\.(align|extern||globl)\b</string>
+			<string>\.(balign|align|p2align|extern|globl|local|section|bss|insn|option|type|equ|macro|endm|file|ident)\b</string>
 			<key>name</key>
 			<string>storage.modifier.riscv</string>
 		</dict>
