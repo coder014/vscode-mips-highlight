@@ -49,6 +49,16 @@
         <key>name</key>
         <string>support.function.riscv.m</string>
       </dict>
+
+      <dict>
+        <key>comment</key>
+        <string>C extension (compressed instructions)</string>
+        <key>match</key>
+        <string>\b(c\.addi4spn|c\.fld|c\.lq|c\.lw|c\.flw|c\.ld|c\.fsd|c\.sq|c\.sw|c\.fsw|c\.sd|c\.nop|c\.addi|c\.jal|c\.addiw|c\.li|c\.addi16sp|c\.lui|c\.srli|c\.srli64|c\.srai|c\.srai64|c\.andi|c\.sub|c\.xor|c\.or|c\.and|c\.subw|c\.addw|c\.j|c\.beqz|c\.bnez)\b</string>
+        <key>name</key>
+        <string>support.function.riscv.c</string>
+      </dict>
+
       <dict>
         <key>comment</key>
         <string>A extension (atomic instructions)</string>
