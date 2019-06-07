@@ -9,6 +9,13 @@ This VSCode extension provides basic RISC-V colorization and snippets support.
 
 ![colors](images/vscode-riscv-colors.png)
 
+#### Supported
+- RV32GC and RV64GC syntax highlight (G = IMAFD)
+- Assembler directives
+- Preprocessors like `#include` and `#define`
+- Comments: `#`, `//` and `/* */`
+
+
 ### Snippets
 
 ~The extension is based on Textmate's [MIPS bundle](https://github.com/textmate/mips.tmbundle)~
