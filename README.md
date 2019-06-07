@@ -34,7 +34,7 @@ This VSCode extension provides basic RISC-V colorization and snippets support.
 
 ### 0.0.3
 
-Branches into RISC-V
+* Branches into RISC-V
 
 ### 0.0.2
 
@@ -43,4 +43,4 @@ Branches into RISC-V
 
 ### 0.0.1
 
-Initial release
+* Initial release
