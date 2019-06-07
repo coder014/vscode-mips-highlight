@@ -2,7 +2,7 @@
     "name": "riscv",
     "displayName": "RISC-V Support",
     "description": "Provides syntax highlighting and snippets for RISC-V assembly language",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "zhwu95",
     "homepage": "https://github.com/zhuanhao-wu/vscode-riscv-support",
     "icon": "images/icon.png",
