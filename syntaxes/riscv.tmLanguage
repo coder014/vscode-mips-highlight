@@ -27,7 +27,7 @@
 
       <dict>
         <key>match</key>
-        <string>\b(add|addw|auipc|jalr|beq|bne|blt|bge|bltu|bgeu|lb|lh|lw|ld|lbu|lhu|sb|sh|sw|sd|addi|addiw|slti|sltiu|xori|ori|andi|slli|slliw|srli|srliw|srai|sraiw|sub|subw|sll|sllw|slt|sltu|xor|srl|srlw|sra|sraw|or|and|fence|fence\.i|csrrw|csrrs|csrrc|csrrwi|csrrsi|csrrci)\b</string>
+        <string>\b(add|addw|auipc|lui|jalr|beq|bne|blt|bge|bltu|bgeu|lb|lh|lw|ld|lbu|lhu|sb|sh|sw|sd|addi|addiw|slti|sltiu|xori|ori|andi|slli|slliw|srli|srliw|srai|sraiw|sub|subw|sll|sllw|slt|sltu|xor|srl|srlw|sra|sraw|or|and|fence|fence\.i|csrrw|csrrs|csrrc|csrrwi|csrrsi|csrrci)\b</string>
         <key>name</key>
         <string>support.function.riscv</string>
       </dict>
