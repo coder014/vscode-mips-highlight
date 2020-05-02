@@ -22,6 +22,10 @@ This VSCode extension provides basic RISC-V colorization and snippets support.
 
 ## Release Notes
 
+### 0.0.7
+
+* Bug fixes
+
 ### 0.0.6
 
 * Add more instructions (C extensions)
