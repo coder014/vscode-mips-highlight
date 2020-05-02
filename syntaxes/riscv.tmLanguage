@@ -27,7 +27,7 @@
 
       <dict>
         <key>match</key>
-        <string>\b(add|addw|auipc|jalr|beq|bne|blt|bge|bltu|bgeu|lb|lh|lw|ld|lbu|lhu|sb|sh|sw|sd|addi|addiw|slti|sltiu|xori|ori|andi|slli|slliw|srli|srliw|srai|sraiw|sub|subw|sll|sllw|slt|sltu|xor|srl|srlw|sra|sraw|or|and|fence|fence\.i|csrrw|csrrs|csrrc|csrrwi|csrrsi|csrrci)\b</string>
+        <string>\b(add|addw|auipc|lui|jalr|beq|bne|blt|bge|bltu|bgeu|lb|lh|lw|ld|lbu|lhu|sb|sh|sw|sd|addi|addiw|slti|sltiu|xori|ori|andi|slli|slliw|srli|srliw|srai|sraiw|sub|subw|sll|sllw|slt|sltu|xor|srl|srlw|sra|sraw|or|and|fence|fence\.i|csrrw|csrrs|csrrc|csrrwi|csrrsi|csrrci)\b</string>
         <key>name</key>
         <string>support.function.riscv</string>
       </dict>
@@ -139,6 +139,20 @@
         <string>\b(zero|ra|sp|gp|tp|t[0-6]|a[0-7]|s[0-9]|fp|s1[0-1])\b</string>
         <key>name</key>
         <string>variable.other.register.usable.by-name.riscv</string>
+      </dict>
+      <dict>
+        <key>captures</key>
+        <dict>
+          <key>1</key>
+          <dict>
+            <key>name</key>
+            <string>punctuation.definition.variable.riscv</string>
+          </dict>
+        </dict>
+        <key>match</key>
+        <string>\b(([umsh]|vs)status|([umsh]|vs)ie|([ums]|vs)tvec|([ums]|vs)scratch|([ums]|vs)epc|([ums]|vs)cause|([umsh]|vs)tval|([umsh]|vs)ip|fflags|frm|fcsr|m?cycleh?|timeh?|m?instreth?|m?hpmcounter([3-9]|[12][0-9]|3[01])h?|[msh][ei]deleg|[msh]counteren|v?satp|hgeie|hgeip|[hm]tinst|hvip|hgatp|htimedeltah?|mvendorid|marchid|mimpid|mhartid|misa|mstatush|mtval2|pmpcfg[0-3]|pmpaddr([0-9]|1[0-5])|mcountinhibit|mhpmevent([3-9]|[12][0-9]|3[01])|tselect|tdata[1-3]|dcsr|dpc|dscratch[0-1])\b</string>
+        <key>name</key>
+        <string>variable.other.csr.names.riscv</string>
       </dict>
       <dict>
         <key>captures</key>
