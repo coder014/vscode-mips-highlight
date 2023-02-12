@@ -12,6 +12,9 @@ This VSCode extension provides basic MIPS colorization support.
 - Preprocessors like `#include` and `#define`
 - Comments: `#`, `//` and `/* */`
 
+## Screenshot
+![screenshot](images/screenshot.jpg)
+
 
 ## Release Notes
 
