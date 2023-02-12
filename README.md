@@ -1,26 +1,23 @@
-# RISC-V Support
+# MIPS Support
 
-This project is copied and adapted from [MIPS Support](https://github.com/kdarkhan/vscode-mips-support)
+This project is copied and adapted from [RISC-V Support](https://github.com/zhuanhao-wu/vscode-riscv-support) and [MIPS Support](https://github.com/kdarkhan/vscode-mips-support)
 
 ## Features
-This VSCode extension provides basic RISC-V colorization and snippets support.
+This VSCode extension provides basic MIPS colorization support.
 
-### Colors
-
-![colors](images/vscode-riscv-colors.png)
 
 #### Supported
-- RV32GC and RV64GC syntax highlight (G = IMAFD)
+- MIPS32 syntax highlight
 - Assembler directives
 - Preprocessors like `#include` and `#define`
 - Comments: `#`, `//` and `/* */`
 
 
-### Snippets
-
-~The extension is based on Textmate's [MIPS bundle](https://github.com/textmate/mips.tmbundle)~
-
 ## Release Notes
+
+### 0.0.9
+
+* Branches into MIPS
 
 ### 0.0.8
 
